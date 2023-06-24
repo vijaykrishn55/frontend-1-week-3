@@ -107,6 +107,7 @@ html body{
     margin-top: 110px;
     background-color: rgba(255, 255, 255, 0.692);
     margin-bottom: 40px;
+    padding: 72px 5px;
 }
 .register h2{
     font-size: 40px;
