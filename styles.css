@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+html body{
+    background-color: rgb(213, 213, 213);
+}
+.head{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.head h2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+}
+.head h2{
+    margin-left: 12px;
+}
+.head h2 a:hover{
+    color: blue;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+}
+.navigation ul li a:hover{
+    color: blue;
+}
+.navigation ul{
+    display:flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.navigation{
+    margin-right:12px;
+}
+.main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.books{
+    align-items: center;
+    display: flex;
+    padding: 72px 5px;
+    flex-direction: column;
+    margin-top: 110px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 760px;
+    height: 455px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+.fill-table{
+    width: 700px;
+    height: 500px;
+    margin:18px;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px;
+}
+.fill-table .table-head{
+    height: 40px;
+    font-size: 20px;
+}
+.fill-table .table-data a{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: -130px;
+}
+.fill-table .table-data .in-table{
+    border-collapse: collapse;
+    text-align: start;
+    margin-left: 6px;
+    height: 80px;
+    margin-bottom: 8px;
+    border: 1px;
+}
+.books h2{
+    font-size: 40px;
+    margin-right: 580px;
+    margin-top: 25px;
+}
+.register form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.register{
+    width: 760px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin-top: 110px;
+    background-color: rgba(255, 255, 255, 0.692);
+    margin-bottom: 40px;
+}
+.register h2{
+    font-size: 40px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.register form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+.register form .details{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 10px;
+}
+.register form label{
+    font-size: 23px;
+    font-weight: 500;
+}
+.register form .details button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+}
