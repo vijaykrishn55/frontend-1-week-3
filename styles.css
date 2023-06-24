@@ -69,7 +69,7 @@ html body{
     margin:18px;
     border-collapse: collapse;
     text-align: center;
-    border: 1px;
+    border: 4px solid gray;
 }
 .fill-table .table-head{
     height: 40px;
